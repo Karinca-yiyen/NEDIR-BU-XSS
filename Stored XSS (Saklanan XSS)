@@ -9,7 +9,7 @@ html
 <script>alert('Stored XSS!');</script>
 Eğer site bu kodu filtrelemeden kaydeder ve başka kullanıcılar bu yorumu görürse, onların tarayıcılarında da bu alert penceresi açılır.
 
-Tehlikeler:
+TEHLİKELER:
 
 Kullanıcının çerezlerini çalmak(stealing user cookies)
 
