@@ -1,0 +1,22 @@
+Reflected XSS (Yansıtılan XSS)
+TANIM:
+Kötü amaçlı kod, bir link ile birlikte gönderilir ve anında sayfaya yansıtılır, veritabanına kaydedilmez.
+
+Senaryo:
+Kullanıcıdan alınan bir parametre, ınput(arama bölümünden)sayfada doğrudan yansıtılıyor:
+
+1.html
+https://kerem.com/search?query=<script>alert('Reflected XSS!')</script>
+Sunucu bu parametreyi doğrudan sayfaya eklerse:
+
+Kötü niyetli şahış, bu URL’yi bir kullanıcıya sosyal medya yolları veya  gönderdiğinde, script kullanıcı tarayıcısında çalışır.
+<script>alert('Reflected XSS!')</script>
+kullanıcı istemeden parametreyi çalıştırır.
+
+Kısa ve net şekide 1.html’i saldırgan kendi bilgisiyarına yazdıktan sonra bu html kodunu sosyal medya yoluyla kurbana atar ve bu html kodu saldırganın istediği uzantıda çalışır ve saldırgan Reflected XSS sonucu kurbana saldırıda bulunur.
+
+TEHLİKELER:
+
+Oltalama saldırıları(Pahishing)
+
+Zararlı linklerle kimlik avı
