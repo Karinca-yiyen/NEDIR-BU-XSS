@@ -1,10 +1,12 @@
 # DOM-Based XSS
 
-# TANIM:
+# GİRİŞ
+
+TANIM:
 
 Bu türde zararlı kod, doğrudan tarayıcıda çalışan JavaScript tarafından işlenir. Yani saldırı, tamamen istemci (client) tarafında gerçekleşir.
 
-# Senaryo:
+Senaryo:
 
 javascript
 
@@ -28,7 +30,7 @@ html
   
 </div>
 
-# Tehlikeler:
+Tehlikeler:
 
 Web sayfasının işlevlerini manipüle etme(DOM Manipulation)
 
