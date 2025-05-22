@@ -1,6 +1,6 @@
 Reflected XSS (Yansıtılan XSS)
                                           
-                                          GİRİŞ
+# GİRİŞ
 
 TANIM:
 
@@ -30,7 +30,7 @@ Oltalama saldırıları(Pahishing)
 
 Zararlı linklerle kimlik avı
 
-                                          GELİŞME
+# GELİŞME
                                           
 İki tür güvenlik güvenlik açığı vardır Non-persistent XSS:Reflected XSS arka sunucu tarafından işlenir.
 
@@ -42,9 +42,9 @@ En temel eğer bir input kısmına karınca değeri girince site bize 'karınca'
 
 Örnek:
 
-      Bu gibi seneryoda basit bir script deneyelim <script>alert(window.origin)</script> ve bir uyarı penceresi açılır Görev '' eklenemedi diye bir sonuç
+Bu gibi seneryoda basit bir script deneyelim <script>alert(window.origin)</script> ve bir uyarı penceresi açılır Görev '' eklenemedi diye bir sonuç
       
-      Bu durumda scriptimiz kod bloğunun işleyişinden çıkıp kendi kodumuzu enjekte edıyo, bunu düzeltmek için scriptin başına bir ' ekliyoruz ve artık XSS kapandı.
+Bu durumda scriptimiz kod bloğunun işleyişinden çıkıp kendi kodumuzu enjekte edıyo, bunu düzeltmek için scriptin başına bir ' ekliyoruz ve artık XSS kapandı.
       
-      Kısaca Non-persitant XSS < > ' " gibi karakterlerin güzel filtrelenmemesinden dolayı oluşur.
+Kısaca Non-persitant XSS < > ' " gibi karakterlerin güzel filtrelenmemesinden dolayı oluşur.
       
