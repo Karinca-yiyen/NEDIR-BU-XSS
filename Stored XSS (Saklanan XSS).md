@@ -1,5 +1,7 @@
-Stored XSS (Saklanan XSS)
+# Stored XSS (Saklanan XSS)
+
 # GİRİŞ
+
 Tanım:
 
 Kötü amaçlı script, bir veritabanı veya sunucuya kalıcı olarak kaydedilir. Başka bir kullanıcı bu veriyi görüntülediğinde, zararlı kod çalışır.
