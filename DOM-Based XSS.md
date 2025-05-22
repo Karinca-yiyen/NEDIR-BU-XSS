@@ -1,22 +1,34 @@
 DOM-Based XSS
-TANIM:
+
+# TANIM:
+
 Bu türde zararlı kod, doğrudan tarayıcıda çalışan JavaScript tarafından işlenir. Yani saldırı, tamamen istemci (client) tarafında gerçekleşir.
 
-Senaryo:
+# Senaryo:
+
 javascript
+
 var search = location.hash.substring(1);
+
 document.getElementById("result").innerHTML = search;
+
 Bir kullanıcı şu URL'ye giderse:
 
 php-template
+
 https://kerem.com/#<img src=x onerror=alert('DOM XSS')>
+
 Script şu şekilde çalışır:
 
 html
+
 <div id="result">
+  
   <img src=x onerror=alert('DOM XSS')>
+  
 </div>
-Tehlikeler:
+
+# Tehlikeler:
 
 Web sayfasının işlevlerini manipüle etme(DOM Manipulation)
 
