@@ -54,6 +54,10 @@ Eğer site bunu doğrudan gösterirse, kullanıcıyı korkutacak, belki kandıra
 
 # XSS öğren
 
-NEDIR-BU-XSS ile XSS’si daha iyi anlayıp öğrenebilirsiniz
+XSS öğren
+
+xss nedir
+
+NEDIR-BU-XSS ile XSS’si bu depoya girerek daha iyi anlayıp özetlerle kavrayıp öğrenebilirsiniz
 
 # TÜRKÇE
