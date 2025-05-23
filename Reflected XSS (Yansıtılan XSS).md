@@ -33,7 +33,13 @@ Zararlı linklerle kimlik avı
 
 # GELİŞME
                                           
-İki tür güvenlik güvenlik açığı vardır Non-persistent XSS:Reflected XSS arka sunucu tarafından işlenir.
+Non-persistent XSS:
+
+Non-persitant XSS kısaca sunucu tarafından kalıcı olarak saklanmaz.
+
+İki tane Non-persitant XSS vardır DOM Based XSS ve Reflected XSS arka sunucu tarafından işlenir.
+
+Reflected XSS arka sunucu tarafından işlenir.
 
 Kalıcı XSS’in aksine Non-persistent XSS geçicidir ve sayfa yenilenince gider bu nedenle yalnızca hedeflenen kullanıcıyı etkiler.
 
