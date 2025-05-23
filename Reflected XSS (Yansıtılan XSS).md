@@ -37,7 +37,7 @@ Non-persistent XSS:
 
 Non-persitant XSS kısaca sunucu tarafından kalıcı olarak saklanmaz.
 
-İki tane Non-persitant XSS vardır DOM Based XSS ve Reflected XSS arka sunucu tarafından işlenir.
+İki tane Non-persitant XSS vardır DOM Based XSS ve Reflected XSS .
 
 Reflected XSS arka sunucu tarafından işlenir.
 
