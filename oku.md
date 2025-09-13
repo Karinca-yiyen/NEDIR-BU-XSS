@@ -17,19 +17,19 @@ Kısaca: Bir sitede sana ait olmayan kod çalıştırıyorsan, orada XSS olabili
 
 Düşün ki bir web sitesine yorum yazıyorsun. Ve inputa normalde şöyle yazarsın:
 
-Harika bir karınca!
+merhaba
 
 Ama bir saldırgan şöyle yazabilir:
 
-<script>alert('Karınca burada!');</script>
+<script>alert('selam');</script>
 
 Eğer site bunu filtresiz yayınlarsa, sayfayı ziyaret eden herkesin ekranına bir uyarı kutusu çıkar! Bu sadece basit bir örnek, saldırgan bu yolla:
 
-Oturum çalabilir 🍪
+Oturum çalabilir 
 
-Kullanıcıyı kandırabilir 🎭
+Kullanıcıyı kandırabilir 
 
-Başka sitelere yönlendirme yapabilir 🚪
+Başka sitelere yönlendirme yapabilir 
 
 🐜 XSS TÜRLERİ
 
